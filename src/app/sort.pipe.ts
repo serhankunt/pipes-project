@@ -11,7 +11,7 @@ export class SortPipe implements PipeTransform {
     }
 
     if (typeof array[0] === 'number') {
-      // If the array contains numbers, sort them directly
+     
       return array.slice().sort((a, b) => a - b);
     }
 
